@@ -1,0 +1,11 @@
+{
+  "name": "Playwright",
+  "dockerComposeFile": ["../compose.yaml"],
+  "service": "playwright",
+  "workspaceFolder": "/home/node/app",
+  "customizations": {
+    "vscode": {
+      "extensions": ["esbenp.prettier-vscode", "dbaeumer.vscode-eslint", "ms-playwright.playwright"]
+    }
+  }
+}
